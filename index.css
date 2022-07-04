@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    margin: 100px auto;
+    border: 0;
+    height: 100vh;
+    width: 900px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+#header-div {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: end;
+} 
+
+#title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3em;
+    padding-left: 20rem;
+}
+
+#header-name {
+    font-family: 'Inter', sans-serif;
+    padding-left: 20rem;
+}
+
+#about-par {
+    font-family: 'Inter', sans-serif;
+    text-justify: distribute;
+    text-align: left;
+}
+
+#about-div {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 1em;
+    text-align: right;
+}
+
+#about-div img {
+    width: 17em;
+    height: 28em;
+    margin-bottom: 1em;
+}
+
+#about-div h2 {
+    text-align: left;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: darkkhaki;
+}
+
+a:hover {
+    color: darkgrey; 
+}
+
+a:active {
+    color: beige;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#img-div h2 {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 3em;
+}
+
+#projects-div {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left: 1em;
+}
+
+#project-1 img {
+    width: 14.77em;
+    height: 15em;
+    border: .5px solid black;
+}
+
+#project-1 p, #project-2 p, #project-3 p, #project-4 p {
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+    margin-right: 2em;
+    text-justify: distribute;
+    font-size: 18px;
+}
+
+#project-1, #project-2, #project-3, #project-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+
+#project-3 img {
+    width: 15em;
+    height: 15em;
+    border: .5px solid black;
+}
+
+#project-2 img {
+    width: 14.77em;
+    height: 15em;
+    border: .5px solid black;
+}
+
+#project-4 img {
+    width: 14.77em;
+    height: 15em;
+    border: .5px solid black;
+}
+
+#contact-div p {
+    font-family: 'Inter', sans-serif;
+}
+
+#main-container {
+    padding-bottom: 20px;
+}
